@@ -1,0 +1,24 @@
+:root {
+    --background-color: #282c34; /* Dark theme */
+    --text-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    text-align: center;
+    font-size: 4em;
+}
+
+.light-theme {
+    --background-color: white; /* Light theme */
+    --text-color: black;
+}
